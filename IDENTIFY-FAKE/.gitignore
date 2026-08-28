@@ -1,0 +1,54 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Machine Learning artifacts
+# Generated locally by train_model.py
+# =========================
+*.pkl
+*.joblib
+
+# =========================
+# Logs
+# =========================
+*.log
+admin-logs.txt
+
+# =========================
+# Personal / temporary files
+# =========================
+VIDEO-PROMPT.txt
+company-line.txt
+"file to run a program.txt"
+"written file.txt"
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Operating system
+# =========================
+.DS_Store
+Thumbs.db
