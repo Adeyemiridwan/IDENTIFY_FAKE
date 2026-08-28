@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Trained ML artifacts
+*.pkl
+*.joblib
+
+# Logs
+*.log
+admin-logs.txt
+
+# Personal / temporary notes
+VIDEO-PROMPT.txt
+company-line.txt
+file to run a program.txt
+written file.txt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
